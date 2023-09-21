@@ -1,0 +1,69 @@
+body {
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(21, 16, 36);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+section {
+  margin-top: 20px;
+}
+.profile-heading h1 {
+  margin: 20px 0;
+  font-size: 2em;
+  text-align: center;
+}
+.profile-pic {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.profile-pic img {
+  width: 100%;
+  height: auto;
+  margin-top: -10px;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.link-button {
+  width: 500px;
+  height: 45px;
+  padding: 15px 0;
+  color: #fffed4;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid #fffed4;
+  text-align: center;
+  margin: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-button span {
+  display: flex;
+  align-items: center;
+}
+.link-button i {
+  font-size: 2em;
+  padding-right: 10px;
+}
+.link-button:hover{
+    color: rgb(21, 16, 36);
+    border: 1px solid rgb(21, 16, 36);
+    background-color: #fffed4;
+    transition: all 0.3s ease;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .link-button {
+    width: 100%;
+  }
+}
