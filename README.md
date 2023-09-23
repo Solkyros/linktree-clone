@@ -1,4 +1,4 @@
-# Simple Linktree Clone
+# Linktree Clone
 
 This is a beginner-friendly static web app built using HTML and CSS. It allows users to create a personalized link tree, similar to Linktree, to showcase their social media profiles, websites, and more—all in one place.
 
